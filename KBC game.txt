@@ -1,0 +1,1474 @@
+include<iostream.h>
+include<conio.h>
+include<string.h>
+include<maths.h>
+include<stdio.h>
+ long int sum=0;
+int e=5;
+int f=6;
+int g=7;
+int h=8;
+
+
+int a[5][5];
+int b[5][5];
+int c[50];
+
+int k=0;
+int u=0;
+
+
+
+
+void kbc()
+{
+clrscr();
+
+cout<<"                   WELCOME TO KAUN BANAIGA CROREPATI  |N  |N   "<<endl;
+{
+cout<<" hi, my name is Amitabh bachan and you are playing kaun banaiga crorepati      "<<endl;
+cout<< "    let me tell you rules of this game"<<endl;
+cout<<" there are 6 rounds and each rounds has cash prize."<<endl;
+cout<<" frist you have to cross the safety limit...that is even if you give wrong answer . you will be taking this sum of money at home for sure"<<endl;
+
+
+clrscr();
+for(int i=1;i<=5;i++)
+{
+int c=0;
+  
+switch(i)
+{
+case 1:
+{
+clrscr();
+cout<<"         ___  __     _____      ___                 "<<endl;        
+cout<<"(_____)  ||| |_|   |||   ||    | __|    (_____)     "<<endl;
+cout<<" |-_-|   ||||_|    |||__||    |_|        |-_-|      "<<endl;
+cout<<" [|_|]   ||||_|    |||  ||    | |__      [|_|]      "<<endl;
+cout<<" _|||_   ||| |_|   |||___||    |___|     _|||_      "<<endl;
+cout<<  endl;
+cout<<"  ________________________________________________  "<<endl;   
+cout<<" |                                                | "<<endl;
+cout<<"|    WHAT IS SUM OF SPECIAL SERIES:1+2+3+4.....?   |"<<endl;
+cout<<"|                                                  |"<<endl;
+cout<<" |________________________________________________| "<<endl;
+cout<<endl<<endl;
+
+cout<<" ________________               ________________ "<<endl;
+cout<<"|   1.INFINTY    |             |   2.1|12       |"<<endl;
+cout<<"|________________|             |________________|"<<endl;
+cout<<endl;
+cout<<" ________________               ________________ "<<endl;
+cout<<"|   3.-1|12      |             |   4.(234)^48   |"<<endl;
+cout<<"|________________|             |________________|"<<endl;
+cout<<endl;
+cout<<" ________________               ________________ "<<endl;
+cout<<"|   5.AUDIENCE   |             | 6.PHONE FRIEND |"<<endl;
+cout<<"|________________|             |________________|"<<endl;
+cout<<endl;
+cout<<" ________________               ________________ "<<endl;
+cout<<"|   7.50|50      |             |   8.DOUBLE DIP |"<<endl;
+cout<<"|________________|             |________________|"<<endl;
+cout<<endl;
+cout<<" ENTER YOUR ANSWER:-"<<endl;
+cin>>c;
+
+
+
+                   if(c==3)
+{
+cout<<"***************CORRECT ANSWER*********************"<<endl;
+sum=5000;
+cout<<" press enter to continue";
+getch();
+exit(0);
+} 
+         else if(c==1||c==2||c==4)
+{
+cout<<"****************WRONG ANSWER**********************"<<endl;
+cout<<" YOU WON:---"<<sum;
+cout<<" press enter to continue";
+getch();
+exit(0);
+
+}
+              else if(c==5&&e==5)
+{
+e=0;
+c=0;
+cout <<" 1-3%    2-5%      3-93%      4-2% "<<endl;
+ cout << "ENTER YOUR ANSWER:";
+cin>>c;
+if (c==3)
+{
+cout<<"***************CORRECT ANSWER*********************"<<endl;
+sum=5000;
+cout<<" press enter to continue";
+getch();
+
+} 
+else 
+{
+cout<<"****************WRONG ANSWER**********************"<<endl;
+cout<<" YOU WON:---"<<sum;
+cout<<" press enter to continue";
+getch();
+exit(0);
+
+}
+
+}
+            
+
+                    else if(c==6&&f==6)
+{
+f=0;
+c=0;
+cout<<"whom would you like to call?"<<endl;
+cout<<"1.Hrithik     2.Aryan    3.Tushar    4.Ishansh  "<<endl;
+cin>>f;
+cout<<"ringing.................."<<endl;
+cout<< "  hello, my friend you are playing great......"<<endl;
+cout<<"what is sum of series:1+2+3+4.......?"<<endl;
+cout<< "okay"<<endl;
+cout<< "the answer is:3.-1|12"<<endl;
+cout<<"enter your choice"<<endl;
+cin>>c;
+if(c==3)
+{
+cout<<"***************CORRECT ANSWER*********************"<<endl;
+sum=5000;
+cout<<" press enter to continue";
+getch();
+
+} 
+else 
+{
+cout<<"****************WRONG ANSWER**********************"<<endl;
+cout<<" YOU WON:---"<<sum;
+cout<<" press enter to continue";
+getch();
+exit(0);
+}
+}
+             else if(c==7&&g==7)
+{
+g=0;
+c=0;
+clrscr();
+cout<<"         ___  __     _____      ___                 "<<endl;        
+cout<<"(_____)  ||| |_|   |||   ||    | __|    (_____)     "<<endl;
+cout<<" |-_-|   ||||_|    |||__||    |_|        |-_-|      "<<endl;
+cout<<" [|_|]   ||||_|    |||  ||    | |__      [|_|]      "<<endl;
+cout<<" _|||_   ||| |_|   |||___||    |___|     _|||_      "<<endl;
+cout<<  endl;
+cout<<"  ________________________________________________  "<<endl;   
+cout<<" |                                                | "<<endl;
+cout<<"|    WHAT IS SUM OF SPECIAL SERIES:1+2+3+4.....?   |"<<endl;
+cout<<"|                                                  |"<<endl;
+cout<<" |________________________________________________| "<<endl;
+cout<<endl<<endl;
+
+cout<<" ________________                                "<<endl;
+cout<<"|   1.INFINTY    |                               "<<endl;
+cout<<"|________________|                               "<<endl;
+cout<<endl;
+cout<<" ________________                                "<<endl;
+cout<<"|   3.-1|12      |                               "<<endl;
+cout<<"|________________|                               "<<endl;
+cout<<endl;
+cout<<" ENTER YOUR ANSWER:-"<<endl;
+cin>>c;
+
+
+if(c==3)
+{
+cout<<"***************CORRECT ANSWER*********************"<<endl;
+sum=5000;
+cout<<" press enter to continue";
+getch();
+
+} 
+else
+{
+cout<<"****************WRONG ANSWER**********************"<<endl;
+cout<<" YOU WON:---"<<sum;
+cout<<" press enter to continue";
+getch();
+exit(0);
+}
+}
+             else if(c==8&&h==8)
+{
+h=0;
+c=0;
+cout<<" ENTER YOUR FIRST CHOICE:";
+cin>>c;
+if(c==3)
+{
+cout<<"***************CORRECT ANSWER*********************"<<endl;
+sum=5000;
+cout<<" press enter to continue";
+getch();
+
+} 
+else
+{
+c=0;
+  cout<<"ENTER YOUR SECOND CHOICE:";
+cin>>c;
+if(c==3)
+{
+cout<<"***************CORRECT ANSWER*********************"<<endl;
+sum=5000;
+cout<<" press enter to continue";
+getch();
+
+} 
+
+  
+else
+{
+cout<<"****************WRONG ANSWER**********************"<<endl;
+cout<<" YOU WON:---"<<sum;
+cout<<" press enter to continue";
+getch();
+exit(0);
+}  
+}
+}
+else 
+{
+cout<<"please enter correct numbers "<<endl<<"thank you for playing";
+cout<<" press enter to continue";
+getch();
+exit(0);
+}
+
+}
+
+
+break;
+ 
+
+case 2:
+{
+clrscr();
+cout<<"         ___  __     _____      ___                 "<<endl;        
+cout<<"(_____)  ||| |_|   |||   ||    | __|    (_____)     "<<endl;
+cout<<" |-_-|   ||||_|    |||__||    |_|        |-_-|      "<<endl;
+cout<<" [|_|]   ||||_|    |||  ||    | |__      [|_|]      "<<endl;
+cout<<" _|||_   ||| |_|   |||___||    |___|     _|||_      "<<endl;
+cout<<  endl;
+cout<<"  ________________________________________________  "<<endl;   
+cout<<" |      ___       CONC.H2SO4                      | "<<endl;
+cout<<"|      | 0 |_OH -----------> ?                     |"<<endl;
+cout<<"|      |___|      CONC.HNO3                        |"<<endl;
+cout<<" |________________________________________________| "<<endl;
+cout<<endl<<endl;
+
+cout<<" ________________               ________________ "<<endl;
+cout<<"| 1.NO2_| 0 |_0H |             | 2. H0_| 0 |_0H |"<<endl;
+cout<<"|_______|___|____|             |_______|___|____|"<<endl;
+cout<<endl;
+cout<<" ________________               ________________ "<<endl;
+cout<<"|   3. | 0 |_0H  |             | 4.NH2_| 0 |_0H |"<<endl;
+cout<<"|______|___|_____|             |_______|___|____|"<<endl;
+cout<<endl;
+cout<<" ________________               ________________ "<<endl;
+cout<<"|   5.AUDIENCE   |             | 6.PHONE FRIEND |"<<endl;
+cout<<"|________________|             |________________|"<<endl;
+cout<<endl;
+cout<<" ________________               ________________ "<<endl;
+cout<<"|   7.50|50      |             |   8.DOUBLE DIP |"<<endl;
+cout<<"|________________|             |________________|"<<endl;
+cout<<endl;
+cout<<" ENTER YOUR ANSWER:-"<<endl;
+cin>>c;
+
+
+
+                   if(c==1)
+{
+cout<<"***************CORRECT ANSWER*********************"<<endl;
+sum=10000;
+cout<<" press enter to continue";
+getch();
+
+} 
+         else if(c==3||c==2||c==4)
+{
+cout<<"****************WRONG ANSWER**********************"<<endl;
+cout<<" YOU WON:---"<<sum;
+cout<<" press enter to continue";
+getch();
+exit(0);
+}
+              else if(c==5&&e==5)
+{
+e=0;
+c=0;
+cout <<" 1-93%    2-5%      3-3%      4-2% "<<endl;
+ cout << "ENTER YOUR ANSWER:";
+cin>>c;
+if (c==1)
+{
+cout<<"***************CORRECT ANSWER*********************"<<endl;
+sum=10000;
+cout<<" press enter to continue";
+getch();
+
+} 
+else 
+{
+cout<<"****************WRONG ANSWER**********************"<<endl;
+cout<<" YOU WON:---"<<sum;
+cout<<" press enter to continue";
+getch();
+exit(0);
+}
+
+}
+            
+
+                    else if(c==6&&f==6)
+{
+f=0;
+c=0;
+cout<<"whom would you like to call?"<<endl;
+cout<<"1.Hrithik     2.Aryan    3.Tushar    4.Ishansh  "<<endl;
+cin>>f;
+cout<<"ringing.................."<<endl;
+cout<< "  hello, my friend you are playing great......"<<endl;
+cout<<"NITRATION OF PHENOL GIVE"<<endl;
+cout<< "okay"<<endl;
+cout<< "the answer is:1"<<endl;
+cout<<"enter your choice"<<endl;
+cin>>c;
+if(c==1)
+{
+cout<<"***************CORRECT ANSWER*********************"<<endl;
+sum=10000;
+cout<<" press enter to continue";
+getch();
+
+} 
+else 
+{
+cout<<"****************WRONG ANSWER**********************"<<endl;
+cout<<" YOU WON:---"<<sum;
+cout<<" press enter to continue";
+getch();
+exit(0);
+}
+}
+             else if(c==7&&g==7)
+{
+g=0;
+c=0;
+clrscr();
+cout<<"         ___  __     _____      ___                 "<<endl;        
+cout<<"(_____)  ||| |_|   |||   ||    | __|    (_____)     "<<endl;
+cout<<" |-_-|   ||||_|    |||__||    |_|        |-_-|      "<<endl;
+cout<<" [|_|]   ||||_|    |||  ||    | |__      [|_|]      "<<endl;
+cout<<" _|||_   ||| |_|   |||___||    |___|     _|||_      "<<endl;
+cout<<  endl;
+cout<<"  ________________________________________________  "<<endl;   
+cout<<" |      ___       CONC.H2SO4                      | "<<endl;
+cout<<"|      | 0 |_OH -----------> ?                     |"<<endl;
+cout<<"|      |___|      CONC.HNO3                        |"<<endl;
+cout<<" |________________________________________________| "<<endl;
+cout<<endl<<endl;
+
+cout<<" ________________                                "<<endl;
+cout<<"| 1.NO2_| 0 |_0H |                               "<<endl;
+cout<<"|_______|___|____|                               "<<endl;
+cout<<endl;
+cout<<"                                ________________ "<<endl;
+cout<<"                               | 4.NH2_| 0 |_0H |"<<endl;
+cout<<"                               |_______|___|____|"<<endl;
+cout<<endl;          
+cout<<" ENTER YOUR ANSWER:-"<<endl;
+cin>>c;
+
+
+if(c==1)
+{
+cout<<"***************CORRECT ANSWER*********************"<<endl;
+sum=10000;
+cout<<" press enter to continue";
+getch();
+
+} 
+else
+{
+cout<<"****************WRONG ANSWER**********************"<<endl;
+cout<<" YOU WON:---"<<sum;
+cout<<" press enter to continue";
+getch();
+exit(0);
+}
+}
+             else if(c==8&&h==8)
+{
+h=0;
+c=0;
+cout<<" ENTER YOUR FIRST CHOICE:";
+cin>>c;
+if(c==1)
+{
+cout<<"***************CORRECT ANSWER*********************"<<endl;
+sum=10000;
+cout<<" press enter to continue";
+getch();
+
+} 
+else
+{
+c=0;
+  cout<<"ENTER YOUR SECOND CHOICE:";
+cin>>c;
+if(c==1)
+{
+cout<<"***************CORRECT ANSWER*********************"<<endl;
+sum=10000;
+cout<<" press enter to continue";
+getch();
+
+} 
+
+  
+else
+{
+cout<<"****************WRONG ANSWER**********************"<<endl;
+cout<<" YOU WON:---"<<sum;
+cout<<" press enter to continue";
+getch();
+exit(0);
+}  
+}
+}
+else 
+{
+cout<<"please enter correct numbers "<<endl<<"thank you for playing";
+exit(0);
+}
+
+}
+
+
+break;
+
+
+case 3:
+{
+clrscr();
+cout<<"         ___  __     _____      ___                 "<<endl;        
+cout<<"(_____)  ||| |_|   |||   ||    | __|    (_____)     "<<endl;
+cout<<" |-_-|   ||||_|    |||__||    |_|        |-_-|      "<<endl;
+cout<<" [|_|]   ||||_|    |||  ||    | |__      [|_|]      "<<endl;
+cout<<" _|||_   ||| |_|   |||___||    |___|     _|||_      "<<endl;
+cout<<  endl;
+cout<<"  ________________________________________________  "<<endl;   
+cout<<" |                                                | "<<endl;
+cout<<"|    WHAT IS VALUE OF :-  ____1_____ .?            |"<<endl;
+cout<<"|                         (Uo.Eo)^1|2              |"<<endl;
+cout<<" |________________________________________________| "<<endl;
+cout<<endl<<endl;
+
+cout<<" ________________               ________________ "<<endl;
+cout<<"|1.SPEED OF SOUND|             |2.SPEED OF X-RAY|"<<endl;
+cout<<"|________________|             |________________|"<<endl;
+cout<<endl;
+cout<<" ________________               ________________ "<<endl;
+cout<<"|3.REFRACTIVE IND|             |4.SPEED OF e-   |"<<endl;
+cout<<"|________________|             |________________|"<<endl;
+cout<<endl;
+cout<<" ________________               ________________ "<<endl;
+cout<<"|   5.AUDIENCE   |             | 6.PHONE FRIEND |"<<endl;
+cout<<"|________________|             |________________|"<<endl;
+cout<<endl;
+cout<<" ________________               ________________ "<<endl;
+cout<<"|   7.50|50      |             |  8.DOUBLE DIP  |"<<endl;
+cout<<"|________________|             |________________|"<<endl;
+cout<<endl;
+cout<<" ENTER YOUR ANSWER:-"<<endl;
+cin>>c;
+
+
+
+                   if(c==2)
+{
+cout<<"***************CORRECT ANSWER*********************"<<endl;
+sum=500000;
+cout<<" press enter to continue";
+getch();
+
+} 
+         else if(c==1||c==3||c==4)
+{
+cout<<"****************WRONG ANSWER**********************"<<endl;
+cout<<" YOU WON:---"<<sum;
+cout<<" press enter to continue";
+getch();
+exit(0);
+}
+              else if(c==5&&e==5)
+{
+e=0;
+c=0;
+cout <<" 1-3%    2-95%      3-0%      4-2% "<<endl;
+ cout << "ENTER YOUR ANSWER:";
+cin>>c;
+if (c==2)
+{
+cout<<"***************CORRECT ANSWER*********************"<<endl;
+sum=500000;
+cout<<" press enter to continue";
+getch();
+
+} 
+else 
+{
+cout<<"****************WRONG ANSWER**********************"<<endl;
+cout<<" YOU WON:---"<<sum;
+cout<<" press enter to continue";
+getch();
+exit(0);
+}
+
+}
+            
+
+                    else if(c==6&&f==6)
+{
+f=0;
+c=0;
+cout<<"whom would you like to call?"<<endl;
+cout<<"1.Hrithik     2.Aryan    3.Tushar    4.Ishansh  "<<endl;
+cin>>f;
+cout<<"ringing.................."<<endl;
+cout<< "  hello, my friend you are playing great......"<<endl;
+cout<<"what is value of 1|(Uo.Eo)^1|2="<<endl;
+cout<< "okay typing................"<<endl;
+cout<< "the answer is:2.speed of "<<endl;
+cout<<"enter your choice"<<endl;
+cin>>c;
+if(c==2)
+{
+cout<<"***************CORRECT ANSWER*********************"<<endl;
+sum=500000;
+cout<<" press enter to continue";
+getch();
+
+} 
+else 
+{
+cout<<"****************WRONG ANSWER**********************"<<endl;
+cout<<" YOU WON:---"<<sum;
+cout<<" press enter to continue";
+getch();
+exit(0);
+}
+}
+             else if(c==7&&g==7)
+{
+g=0;
+c=0;
+clrscr();
+cout<<"         ___  __     _____      ___                 "<<endl;        
+cout<<"(_____)  ||| |_|   |||   ||    | __|    (_____)     "<<endl;
+cout<<" |-_-|   ||||_|    |||__||    |_|        |-_-|      "<<endl;
+cout<<" [|_|]   ||||_|    |||  ||    | |__      [|_|]      "<<endl;
+cout<<" _|||_   ||| |_|   |||___||    |___|     _|||_      "<<endl;
+cout<<  endl;
+cout<<"  ________________________________________________  "<<endl;   
+cout<<" |                                                | "<<endl;
+cout<<"|    WHAT IS VALUE OF :-  ____1_____ .?            |"<<endl;
+cout<<"|                         (Uo.Eo)^1|2              |"<<endl;
+cout<<" |________________________________________________| "<<endl;
+cout<<endl<<endl;
+
+cout<<"                                ________________ "<<endl;
+cout<<"                               |2.SPEED OF X-RAY|"<<endl;
+cout<<"                               |________________|"<<endl;
+cout<<endl;
+cout<<" ________________                                "<<endl;
+cout<<"|3.REFRACTIVE IND|                               "<<endl;
+cout<<"|________________|                               "<<endl;
+cout<<endl;
+
+cout<<" ENTER YOUR ANSWER:-"<<endl;
+cin>>c;
+
+
+if(c==2)
+{
+cout<<"***************CORRECT ANSWER*********************"<<endl;
+sum=500000;
+cout<<" press enter to continue";
+getch();
+
+} 
+else
+{
+cout<<"****************WRONG ANSWER**********************"<<endl;
+cout<<" YOU WON:---"<<sum;
+cout<<" press enter to continue";
+getch();
+exit(0);
+}
+}
+             else if(c==8&&h==8)
+{
+h=0;
+c=0;
+cout<<" ENTER YOUR FIRST CHOICE:";
+cin>>c;
+if(c==2)
+{
+cout<<"***************CORRECT ANSWER*********************"<<endl;
+sum=500000;
+cout<<" press enter to continue";
+getch();
+
+} 
+else
+{
+c=0;
+  cout<<"ENTER YOUR SECOND CHOICE:";
+cin>>c;
+if(c==2)
+{
+cout<<"***************CORRECT ANSWER*********************"<<endl;
+sum=500000;
+cout<<" press enter to continue";
+getch();
+
+} 
+
+  
+else
+{
+cout<<"****************WRONG ANSWER**********************"<<endl;
+cout<<" YOU WON:---"<<sum;
+cout<<" press enter to continue";
+getch();
+exit(0);
+}  
+}
+}
+else 
+{
+cout<<"please enter correct numbers "<<endl<<"thank you for playing";
+cout<<" press enter to continue";
+getch();
+exit(0);
+}
+
+}
+
+
+break;
+
+case 4:
+{
+clrscr();
+cout<<"         ___  __     _____      ___                 "<<endl;        
+cout<<"(_____)  ||| |_|   |||   ||    | __|    (_____)     "<<endl;
+cout<<" |-_-|   ||||_|    |||__||    |_|        |-_-|      "<<endl;
+cout<<" [|_|]   ||||_|    |||  ||    | |__      [|_|]      "<<endl;
+cout<<" _|||_   ||| |_|   |||___||    |___|     _|||_      "<<endl;
+cout<<  endl;
+cout<<"  ________________________________________________  "<<endl;   
+cout<<" |                                                | "<<endl;
+cout<<"|     WHICH ANIMAL IS NATIONAL AQUATIC ANIMAL      |"<<endl;
+cout<<"|                  OF INDIA.?                      |"<<endl;
+cout<<" |________________________________________________| "<<endl;
+cout<<endl<<endl;
+
+cout<<" ________________               ________________ "<<endl;
+cout<<"| 1. BLUE SHARK  |_____________|    2.WHALE     |"<<endl;
+cout<<"|________________|             |________________|"<<endl;
+cout<<endl;
+cout<<" ________________               ________________ "<<endl;
+cout<<"|   3.TURTLE     |_____________|4.GANGA DOLPHIN |"<<endl;
+cout<<"|________________|             |________________|"<<endl;
+cout<<endl;
+cout<<" ________________               ________________ "<<endl;
+cout<<"|   5.AUDIENCE   |             | 6.PHONE FRIEND |"<<endl;
+cout<<"|________________|             |________________|"<<endl;
+cout<<endl;
+cout<<" ________________               ________________ "<<endl;
+cout<<"|   7.50|50      |             |   8.DOUBLE DIP |"<<endl;
+cout<<"|________________|             |________________|"<<endl;
+cout<<endl;
+cout<<" ENTER YOUR ANSWER:-"<<endl;
+cin>>c;
+
+
+
+                   if(c==4)
+{
+cout<<"***************CORRECT ANSWER*********************"<<endl;
+sum=5000000;
+cout<<" press enter to continue";
+getch();
+
+} 
+         else if(c==1||c==2||c==3)
+{
+cout<<"****************WRONG ANSWER**********************"<<endl;
+cout<<" YOU WON:---"<<sum;
+cout<<" press enter to continue";
+getch();
+exit(0);
+}
+              else if(c==5&&e==5)
+{
+e=0;
+c=0;
+cout <<" 1-3%    2-5%      3-0%      4-92% "<<endl;
+ cout << "ENTER YOUR ANSWER:";
+cin>>c;
+if (c==4)
+{
+cout<<"***************CORRECT ANSWER*********************"<<endl;
+sum=5000000;
+cout<<" press enter to continue";
+getch();
+
+} 
+else 
+{
+cout<<"****************WRONG ANSWER**********************"<<endl;
+cout<<" YOU WON:---"<<sum;
+cout<<" press enter to continue";
+getch();
+exit(0);
+}
+
+}
+            
+
+                    else if(c==6&&f==6)
+{
+f=0;
+c=0;
+cout<<"whom would you like to call?"<<endl;
+cout<<"1.Hrithik     2.Aryan    3.Tushar    4.Ishansh  "<<endl;
+cin>>f;
+cout<<"ringing.................."<<endl;
+cout<< "  hello, my friend you are playing great......"<<endl;
+cout<<"WHICH ANIMAL IS NATIONAL AQUATIC ANIMAL IS"<<endl;
+cout<< "okay"<<endl;
+cout<< "the answer is:4.GANGA DOLPHIN"<<endl;
+cout<<"enter your choice"<<endl;
+cin>>c;
+if(c==4)
+{
+cout<<"***************CORRECT ANSWER*********************"<<endl;
+sum=5000000;
+cout<<" press enter to continue";
+getch();
+
+} 
+else 
+{
+cout<<"****************WRONG ANSWER**********************"<<endl;
+cout<<" YOU WON:---"<<sum;
+cout<<" press enter to continue";
+getch();
+exit(0);
+}
+}
+             else if(c==7&&g==7)
+{
+g=0;
+c=0;
+clrscr();
+cout<<"         ___  __     _____      ___                 "<<endl;        
+cout<<"(_____)  ||| |_|   |||   ||    | __|    (_____)     "<<endl;
+cout<<" |-_-|   ||||_|    |||__||    |_|        |-_-|      "<<endl;
+cout<<" [|_|]   ||||_|    |||  ||    | |__      [|_|]      "<<endl;
+cout<<" _|||_   ||| |_|   |||___||    |___|     _|||_      "<<endl;
+cout<<  endl;
+cout<<"  ________________________________________________  "<<endl;   
+cout<<" |                                                | "<<endl;
+cout<<"|     WHICH ANIMAL IS NATIONAL AQUATIC ANIMAL      |"<<endl;
+cout<<"|                  OF INDIA.?                      |"<<endl;
+cout<<" |________________________________________________| "<<endl;
+cout<<endl<<endl;
+
+cout<<" ________________                                "<<endl;
+cout<<"| 1. BLUE SHARK  |                               "<<endl;
+cout<<"|________________|                               "<<endl;
+cout<<endl;
+cout<<"                                ________________ "<<endl;
+cout<<"                               |4.GANGA DOLPHIN |"<<endl;
+cout<<"                               |________________|"<<endl;
+cout<<endl;
+cout<<" ENTER YOUR ANSWER:-"<<endl;
+cin>>c;
+
+
+if(c==4)
+{
+cout<<"***************CORRECT ANSWER*********************"<<endl;
+sum=5000000;
+cout<<" press enter to continue";
+getch();
+
+} 
+else
+{
+cout<<"****************WRONG ANSWER**********************"<<endl;
+cout<<" YOU WON:---"<<sum;
+cout<<" press enter to continue";
+getch();
+exit(0);
+}
+}
+             else if(c==8&&h==8)
+{
+h=0;
+c=0;
+cout<<" ENTER YOUR FIRST CHOICE:";
+cin>>c;
+if(c==4)
+{
+cout<<"***************CORRECT ANSWER*********************"<<endl;
+sum=5000000;
+cout<<" press enter to continue";
+getch();
+
+} 
+else
+{
+c=0;
+  cout<<"ENTER YOUR SECOND CHOICE:";
+cin>>c;
+if(c==4)
+{
+cout<<"***************CORRECT ANSWER*********************"<<endl;
+sum=5000000;
+cout<<" press enter to continue";
+getch();
+
+} 
+
+  
+else
+{
+cout<<"****************WRONG ANSWER**********************"<<endl;
+cout<<" YOU WON:---"<<sum;
+cout<<" press enter to continue";
+getch();
+exit(0);
+}  
+}
+}
+else 
+{
+cout<<"please enter correct numbers "<<endl<<"thank you for playing";
+cout<<" press enter to continue";
+getch();
+exit(0);
+}
+
+}
+
+
+break;
+
+case 5:
+{
+clrscr();
+cout<<"         ___  __     _____      ___                 "<<endl;        
+cout<<"(_____)  ||| |_|   |||   ||    | __|    (_____)     "<<endl;
+cout<<" |-_-|   ||||_|    |||__||    |_|        |-_-|      "<<endl;
+cout<<" [|_|]   ||||_|    |||  ||    | |__      [|_|]      "<<endl;
+cout<<" _|||_   ||| |_|   |||___||    |___|     _|||_      "<<endl;
+cout<<  endl;
+cout<<"  ________________________________________________  "<<endl;   
+cout<<" |                                                | "<<endl;
+cout<<"|      WHO IS KNOWN AS "FATHER OF COMPUTER".?      |"<<endl;
+cout<<"|                                                  |"<<endl;
+cout<<" |________________________________________________| "<<endl;
+cout<<endl<<endl;
+
+cout<<" ________________               ________________ "<<endl;
+cout<<"|1.BOURNE STROUP |_____________| 2.TERRY TAO    |"<<endl;
+cout<<"|________________|             |________________|"<<endl;
+cout<<endl;
+cout<<" ________________               ________________ "<<endl;
+cout<<"|   3.TIM COER   |_____________|4.CHARLES BABBAE|"<<endl;
+cout<<"|________________|             |________________|"<<endl;
+cout<<endl;
+cout<<" ________________               ________________ "<<endl;
+cout<<"|   5.AUDIENCE   |             | 6.PHONE FRIEND |"<<endl;
+cout<<"|________________|             |________________|"<<endl;
+cout<<endl;
+cout<<" ________________               ________________ "<<endl;
+cout<<"|   7.50|50      |             |   8.DOUBLE DIP |"<<endl;
+cout<<"|________________|             |________________|"<<endl;
+cout<<endl;
+cout<<" ENTER YOUR ANSWER:-"<<endl;
+cin>>c;
+
+
+
+                   if(c==4)
+{
+cout<<"***************CORRECT ANSWER*********************"<<endl;
+sum=10000000;
+cout<<" press enter to continue";
+getch();
+
+} 
+         else if(c==1||c==2||c==3)
+{
+cout<<"****************WRONG ANSWER**********************"<<endl;
+cout<<" YOU WON:---"<<sum;
+cout<<" press enter to continue";
+getch();
+exit(0);
+}
+              else if(c==5&&e==5)
+{
+e=0;
+c=0;
+cout <<" 1-3%    2-5%      3-1%      4-92% "<<endl;
+ cout << "ENTER YOUR ANSWER:";
+cin>>c;
+if (c==4)
+{
+cout<<"***************CORRECT ANSWER*********************"<<endl;
+sum=10000000;
+cout<<" press enter to continue";
+getch();
+
+} 
+else 
+{
+cout<<"****************WRONG ANSWER**********************"<<endl;
+cout<<" YOU WON:---"<<sum;
+cout<<" press enter to continue";
+getch();
+exit(0);
+}
+
+}
+            
+
+                    else if(c==6&&f==6)
+{
+f=0;
+c=0;
+cout<<"whom would you like to call?"<<endl;
+cout<<"1.Hrithik     2.Aryan    3.Tushar    4.Ishansh  "<<endl;
+cin>>f;
+cout<<"ringing.................."<<endl;
+cout<< "  hello, my friend you are playing great......"<<endl;
+cout<<"WHO IS KNOWN AS " FATHER OF COMPUTER".?"<<endl;
+cout<< "okay"<<endl;
+cout<< "the answer is:4.CHARLES BABBAES"<<endl;
+cout<<"enter your choice"<<endl;
+cin>>c;
+if(c==4)
+{
+cout<<"***************CORRECT ANSWER*********************"<<endl;
+sum=10000000;
+cout<<" press enter to continue";
+getch();
+
+} 
+else 
+{
+cout<<"****************WRONG ANSWER**********************"<<endl;
+cout<<" YOU WON:---"<<sum;
+cout<<" press enter to continue";
+getch();
+exit(0);
+}
+}
+             else if(c==7&&g==7)
+{
+g=0;
+c=0;
+clrscr();
+
+cout<<"         ___  __     _____      ___                 "<<endl;        
+cout<<"(_____)  ||| |_|   |||   ||    | __|    (_____)     "<<endl;
+cout<<" |-_-|   ||||_|    |||__||    |_|        |-_-|      "<<endl;
+cout<<" [|_|]   ||||_|    |||  ||    | |__      [|_|]      "<<endl;
+cout<<" _|||_   ||| |_|   |||___||    |___|     _|||_      "<<endl;
+cout<<  endl;
+cout<<"  ________________________________________________  "<<endl;   
+cout<<" |                                                | "<<endl;
+cout<<"|      WHO IS KNOWN AS "FATHER OF COMPUTER".?      |"<<endl;
+cout<<"|                                                  |"<<endl;
+cout<<" |________________________________________________| "<<endl;
+cout<<endl<<endl;
+
+cout<<" ________________                                "<<endl;
+cout<<"|1.BOURNE STROUP |                               "<<endl;
+cout<<"|________________|                               "<<endl;
+cout<<endl;
+cout<<"                                ________________ "<<endl;
+cout<<"                               |4.CHARLES BABBAE|"<<endl;
+cout<<"                               |________________|"<<endl;
+cout<<endl;
+
+cout<<" ENTER YOUR ANSWER:-"<<endl;
+cin>>c;
+
+
+if(c==4)
+{
+cout<<"***************CORRECT ANSWER*********************"<<endl;
+sum=10000000;
+cout<<" press enter to continue";
+getch();
+
+} 
+else
+{
+cout<<"****************WRONG ANSWER**********************"<<endl;
+cout<<" YOU WON:---"<<sum;
+cout<<" press enter to continue";
+getch();
+exit(0);
+}
+}
+             else if(c==8&&h==8)
+{
+h=0;
+c=0;
+cout<<" ENTER YOUR FIRST CHOICE:";
+cin>>c;
+if(c==4)
+{
+cout<<"***************CORRECT ANSWER*********************"<<endl;
+sum=10000000;
+cout<<" press enter to continue";
+getch();
+
+} 
+else
+{
+c=0;
+  cout<<"ENTER YOUR SECOND CHOICE:";
+cin>>c;
+if(c==4)
+{
+cout<<"***************CORRECT ANSWER*********************"<<endl;
+sum=10000000;
+cout<<" press enter to continue";
+getch();
+
+} 
+
+  
+else
+{
+cout<<"****************WRONG ANSWER**********************"<<endl;
+cout<<" YOU WON:---"<<sum;
+cout<<" press enter to continue";
+getch();
+exit(0);
+
+}  
+}
+}
+else 
+{
+cout<<"please enter correct numbers "<<endl<<"thank you for playing";
+cout<<" press enter to continue";
+getch();
+exit(0);
+}
+
+}
+
+
+break;
+
+case 6:
+{
+clsscr();
+cout<<"         ___  __     _____      ___                 "<<endl;        
+cout<<"(_____)  ||| |_|   |||   ||    | __|    (_____)     "<<endl;
+cout<<" |-_-|   ||||_|    |||__||    |_|        |-_-|      "<<endl;
+cout<<" [|_|]   ||||_|    |||  ||    | |__      [|_|]      "<<endl;
+cout<<" _|||_   ||| |_|   |||___||    |___|     _|||_      "<<endl;
+cout<<  endl;
+cout<<"""""""""""JIO QUESTION FOR 1 CRORE RUPEES""""""""""""<<endl;
+
+cout<<"  ________________________________________________  "<<endl;   
+cout<<" |         ||    WHAT ANGLE WILL ELECTRIC FIELD   | "<<endl;
+cout<<"| -q-------||------+2q.  INCIDENCE ON -q IF IT     |"<<endl;
+cout<<"|          || EMERGE AT (/)=60 FROM +2q INTO PLATE?|"<<endl;
+cout<<" |________________________________________________| "<<endl;
+cout<<endl<<endl;
+
+cout<<" ________________               ________________ "<<endl;
+cout<<"|   1.COS^-1(2)  |_____________|     2.30       |"<<endl;
+cout<<"|________________|             |________________|"<<endl;
+cout<<endl;
+cout<<" ________________               ________________ "<<endl;
+cout<<"|   3.COS^-1(4)  |_____________|     4.45       |"<<endl;
+cout<<"|________________|             |________________|"<<endl;
+cout<<endl;
+cout<<"ENTER YOUR CHOICE:"<<endl;
+cin>>c;
+                   if(c==1)
+{
+cout<<"*************************************************"<<endl;
+cout<<"*************************************************"<<endl;
+cout<<"*************************************************"<<endl;
+cout<<"*****************CONGRATULATION!!!!**************"<<endl;
+cout<<"*************************************************"<<endl;
+cout<<"*************************************************"<<endl;
+cout<<"*************************************************"<<endl;
+cout<<"*******************WINNER!!!!!!******************"<<endl;
+cout<<"*************************************************"<<endl;
+cout<<"*************************************************"<<endl;
+cout<<"*************************************************"<<endl;
+cout<<"*************************************************"<<endl;
+}
+else
+{
+ cout <<"thank you for playing "<<endl<<"better luck next time"<<endl;
+  cout <<"you have won:-"<<sum;
+cout<<" press enter to continue";
+getch();
+exit(0);
+}
+}
+
+
+
+
+}  || switch paranthesies
+}|| for loop
+
+
+
+}||  kbc function
+
+
+
+
+
+
+
+              void input()
+{
+clrscr();
+randomize();
+
+
+  for(int i=0;i<5;i++)
+  
+          {
+              for(int j=0;j<5;j++)
+
+                 {
+                         
+          print(1);
+     cout<<"enter your number"<<endl;
+            cin>>a[i][j];
+     b[i][j]=random(25)+1;
+                     }
+           }
+  
+}
+             
+
+
+
+
+              void print(int t)
+{
+                  clrscr();
+cout<<"         ____     ____              ____     ____           "; 
+cout<<endl; 
+cout<<"(_____)||____))  (_  _)  |||  ||   | ___!   | __ |   (_____)"<<endl;
+cout<<" |-_-| ||___||     ||    |||| ||  | |  _   |_|  |_|   |-_-| "<<endl;
+cout<<" [|_|] ||___||    _||_   || ||||  | |_| |  | |__| |   [|_|] "<<endl;
+cout<<" _|||_ ||____))  (____)  ||  |||   |____|   |____|    _|||_ "<<endl;
+cout<<  endl;
+cout<<" ____________________________________________________________ "<<endl;
+cout<<"(____________________________________________________________)"<<endl;
+cout<<endl;
+cout<< endl;
+
+
+                if(t==1)
+            cout<<"fill up  your BINGO box";
+
+
+               
+        for(int i=0;i<5;i++)
+  
+          {
+              for(int j=0;j<5;j++)
+
+                 {            
+                        cout<<"|  "<<a[i][j]<<"   |";
+                  }
+                cout<<endl;
+            }
+         getch();
+}
+
+
+
+
+               int play()
+{
+                  if(k%2==0)
+                  {
+                   cout<<"computer turn"<<endl;
+                u=random(25)+1;
+                   cout<<u;
+                      c[k]=u;
+                   k++;
+                      }
+ 
+                  else
+                {
+                   cout<<"player 1 turn"<<endl;
+                    cin>>u;
+                    c[k]=u;
+                       k++;
+                  }
+
+              return u;
+                
+}                 
+
+
+
+                  int valid(int s)
+{
+                   for(int i=0;i<k-1;i++)
+          {
+                       if(c[i]==s)
+                       {
+                    
+                                s=0;
+                            if(k%2==0)
+                             {
+                              cout<<"input valid number"<<endl<<"computer turn";
+                                  s=random(25)+1;
+                                  c[k]=s;
+                               cout<<s;
+                             }
+                            else
+                              {
+                                cout<<"input valid number"<<endl<<"player turn";
+                                
+                           cin>>s;
+                          c[k]=s;      
+                          }
+                             
+                        }
+       
+           }
+         return s;
+        
+}
+
+
+
+              
+                 void cut(int q)
+{
+        for(int i=0;i<5;i++)
+  
+          {
+              for(int j=0;j<5;j++)
+
+                 {
+                      if(a[i][j]==q)
+                      a[i][j]=0;
+                        if(b[i][j]==q)
+                      b[i][j]=0;
+                  }
+         }
+    
+}
+                     
+
+
+
+
+                   int check(int d[5][5])
+  
+{   
+      int y=0;
+if((d[0][0]==d[0][1])&&(d[0][1]==d[0][2])&&(d[0][2]==d[0][3])&&(d[0][3]==d[0][4]))
+    y++;
+if((d[1][0]==d[1][1])&&(d[1][1]==d[1][2])&&(d[1][2]==d[1][3])&&(d[1][3]==d[1][4]))
+    y++;
+if((d[2][0]==d[2][1])&&(d[2][1]==d[2][2])&&(d[2][2]==d[2][3])&&(d[2][3]==d[2][4]))
+    y++;
+if((d[3][0]==d[3][1])&&(d[3][1]==d[3][2])&&(d[3][2]==d[3][3])&&(d[3][3]==d[3][4]))
+    y++;
+if((d[4][0]==d[4][1])&&(d[4][1]==d[4][2])&&(d[4][2]==d[4][3])&&(d[4][3]==d[4][4]))
+    y++;
+
+
+if((d[0][0]==d[1][0])&&(d[1][0]==d[2][0])&&(d[2][0]==d[3][0])&&(d[3][0]==d[4][0]))
+    y++;
+if((d[0][1]==d[1][1])&&(d[1][1]==d[2][1])&&(d[2][1]==d[3][1])&&(d[3][1]==d[4][1]))
+    y++;
+if((d[0][2]==d[1][2])&&(d[1][2]==d[2][2])&&(d[2][2]==d[3][2])&&(d[3][2]==d[4][2]))
+    y++;
+if((d[0][3]==d[1][3])&&(d[1][3]==d[2][3])&&(d[2][3]==d[3][3])&&(d[3][3]==d[4][3]))
+    y++;
+if((d[0][4]==d[1][4])&&(d[1][4]==d[2][4])&&(d[2][4]==d[3][4])&&(d[3][4]==d[4][4]))
+    y++;
+
+
+if((d[0][0]==d[1][1])&&(d[1][2]==d[2][2])&&(d[2][2]==d[3][3])&&(d[3][3]==d[4][4]))
+    y++;
+if((d[0][4]==d[1][3])&&(d[1][3]==d[2][2])&&(d[2][2]==d[3][1])&&(d[3][1]==d[4][0]))
+    y++;
+
+  return y;
+
+
+
+      
+     }
+
+
+
+
+
+
+
+                    void main()
+{
+          clrscr();
+
+cout<<"      ______        _        ||| |   | |||    _______    "<<endl;
+cout<<"     | _____|      | |       |||  | |  |||    || ____    "<<endl;
+cout<<"    | |           | _ |      |||  |||  |||    |||___     "<<endl;
+cout<<"   || |   __     | |_| |     |||  |||  |||    |||___     "<<endl;
+cout<<"    | |__|  |   | |___| |    |||  |||  |||    |||____    "<<endl;      
+cout<<"     |______|  |_|     |_|   |||       |||    ||_____    "<<endl;
+cout<<endl<<endl;
+ 
+
+cout<<"                  1.    BINGO     "<<endl<<endl;
+cout<<"                  2.     KBC      "<<endl;
+int w=0;
+cout<<"ENTER YOUR CHOICE:-";
+
+
+         if(w==1)
+{
+
+  
+                       
+cout<<"         ____     ____              ____     ____           ";
+cout<<endl;        
+cout<<"(_____)||____))  (_  _)  |||  ||   | ___!   | __ |   (_____)"<<endl;
+cout<<" |-_-| ||___||     ||    |||| ||  | |  _   |_|  |_|   |-_-| "<<endl;
+cout<<" [|_|] ||___||    _||_   || ||||  | |_| |  | |__| |   [|_|] "<<endl;
+cout<<" _|||_ ||____))  (____)  ||  |||   |____|   |____|    _|||_ "<<endl;
+cout<<  endl;
+cout<<" ____________________________________________________________"<<endl;
+cout<<"(____________________________________________________________)"<<endl;
+cout<<endl;
+cout<< endl;
+cout<<endl;
+cout<<"                     1.PLAYER V|s COMPUTER                    ";
+cout<<endl;
+cout<<endl;
+
+
+cout<<"ENTER YOUR MODE"<<endl;
+int v=0;
+cin>>v;
+                               if(v==1)
+{ 
+                            input();
+            for(int i=0;i<50;i++)
+{
+                   
+     print(0);
+      int f=play();
+       int r=valid(f);
+                       cut(r);
+       int z=check(a);
+       int y=check(b);
+
+
+   if(z==5)
+{
+cout<<"*************************************************"<<endl;
+cout<<"*************************************************"<<endl;
+cout<<"*************************************************"<<endl;
+cout<<"*****************CONGRATULATION!!!!**************"<<endl;
+cout<<"*************************************************"<<endl;
+cout<<"*************************************************"<<endl;
+cout<<"*************************************************"<<endl;
+cout<<"***************PLAYER1*WINNER!!!!!!**************"<<endl;
+cout<<"*************************************************"<<endl;
+cout<<"*************************************************"<<endl;
+cout<<"*************************************************"<<endl;
+cout<<"*************************************************"<<endl;
+}
+ if(y==5)
+{
+cout<<"*************************************************"<<endl;
+cout<<"*************************************************"<<endl;
+cout<<"*************************************************"<<endl;
+cout<<"*****************CONGRATULATION!!!!**************"<<endl;
+cout<<"*************************************************"<<endl;
+cout<<"*************************************************"<<endl;
+cout<<"*************************************************"<<endl;
+cout<<"**************COMPUTER*****WINNER!!!!!!**********"<<endl;
+cout<<"*************************************************"<<endl;
+cout<<"*************************************************"<<endl;
+cout<<"*************************************************"<<endl;
+cout<<"*************************************************"<<endl;
+}
+if(y==5&&z==5)
+cout<<"match was tie";
+}                        ||for loop
+} || if 
+}
+              else if(w==2)
+              kbc();
+       
+          else
+    cout<<"sorry please enter correct next time";
+
+
+} || main function
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
